@@ -12,9 +12,10 @@ As this is an “endless” game, the goal is for the player to have fun at thei
 
 ## Controls
 
-## Director AI Overview
-The Director AI is aware of certain parameters of the current game session. The Director AI then uses these parameters to adjust the platforming difficulty of the upcoming level chunk, the number of health packs on the level chunk, and the frequency of enemy spawns. 
 
+
+## Director AI Overview
+The Director AI is aware of certain parameters of the current game session. The Director AI then uses these parameters to adjust the platforming difficulty of the upcoming level chunk, the number of health packs on the level chunk, and the frequency of enemy spawns.
 The following  three parameters are used to model the current game intensity, and determine the difficulty of the next level chunk:
 1)  Time taken to travel across the previous level chunk (time intensity)
 2)  Number of enemies that collided with the player in the previous level chunk (hit intensity)
@@ -27,8 +28,10 @@ If the overall intensity is low, the game difficulty will increase as a result: 
 
 ## Authors
 
-Roman Abdoullaev
-
-Daniel Chang
-
+Roman Abdoullaev\
+Daniel Chang\
 Liana Tomecek
+
+## Assets and Acknowledgements
+[Character, platforms, meteorite, level items, and background sprites](https://www.gameart2d.com/freebies.html)\
+[Improved camera movement inspiration](https://drive.google.com/file/d/1-pvYL14P3f2tW88xg-Nhr-LfU99FTQb1/view)
