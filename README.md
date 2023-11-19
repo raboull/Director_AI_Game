@@ -22,7 +22,7 @@ The following  three parameters are used to model the current game intensity, an
 2)  Number of enemies that collided with the player in the previous level chunk (hit intensity)
 3)  Amount of health the player has remaining (health intensity)
 
-If the overall intensity is low, the game difficulty will increase as a result: more enemy spawns, fewer health spawns, or more difficult platforming. Alternatively, after a period of high intensity, the game difficulty may decrease to give the player a short break. The calculated intensity levels are displayed on-screen.\
+If the overall intensity is low, the game difficulty will increase as a result: more enemy spawns, fewer health spawns, or more difficult platforming. Alternatively, after a period of high intensity, the game difficulty may decrease to give the player a short break. The calculated intensity levels are displayed on-screen.
 
 ![increased_intensity_resized](https://github.com/raboull/Director_AI_Game/assets/60552485/ef9bd695-914f-4e93-b1dd-409ab87062a6)![health_degen](https://github.com/raboull/Director_AI_Game/assets/60552485/c030c5c9-9d87-41b0-8c46-53ca6f809b8d)
 
