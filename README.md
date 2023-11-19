@@ -8,11 +8,12 @@ This project was part of the CPSC 599.11 (AI in Games) course at the University 
 
 The player will control Rob, the robot astronaut, as he navigates the hostile envoronment of the alien planet on which he crash landed. In this endless side-scroller platformer, the player must avoid oncoming meteorite-like enemies while continuously recharging their battery power (health) with the battery packs found throughout the platforms. While the player's health will never completely deplete, it is possible to enter a "power saving mode", greatly reducing the player's movement speed. 
 
-As this is an “endless” game, the goal is for the player to have fun at their own pace. The player’s score is directly related to the total distance they have traveled in the right direction -- keep on trying for your new high score!
+As this is an “endless” game, the goal is for the player to have fun at their own pace. The player’s score is directly related to the total distance they have traveled in the right direction -- keep on trying for your new high score!\
+![general gameplay)](https://github.com/raboull/Director_AI_Game/assets/60552485/97e90481-7e25-45a0-8e46-77e769240657)
 
 ## Controls
-
-
+![game_controls](https://github.com/raboull/Director_AI_Game/assets/60552485/26f93550-cb6d-4e74-bf60-4163420ed7f0)\
+When the game intensity is at its peak, careful use of the downwards slam is key to precise meteorite evasion!
 
 ## Director AI Overview
 The Director AI is aware of certain parameters of the current game session. The Director AI then uses these parameters to adjust the platforming difficulty of the upcoming level chunk, the number of health packs on the level chunk, and the frequency of enemy spawns.
@@ -21,7 +22,9 @@ The following  three parameters are used to model the current game intensity, an
 2)  Number of enemies that collided with the player in the previous level chunk (hit intensity)
 3)  Amount of health the player has remaining (health intensity)
 
-If the overall intensity is low, the game difficulty will increase as a result: more enemy spawns, fewer health spawns, or more difficult platforming. Alternatively, after a period of high intensity, the game difficulty may decrease to give the player a short break. The calculated intensity levels are displayed on-screen.
+If the overall intensity is low, the game difficulty will increase as a result: more enemy spawns, fewer health spawns, or more difficult platforming. Alternatively, after a period of high intensity, the game difficulty may decrease to give the player a short break. The calculated intensity levels are displayed on-screen.\
+
+![increased_intensity_resized](https://github.com/raboull/Director_AI_Game/assets/60552485/ef9bd695-914f-4e93-b1dd-409ab87062a6)![health_degen](https://github.com/raboull/Director_AI_Game/assets/60552485/c030c5c9-9d87-41b0-8c46-53ca6f809b8d)
 
 
 
