@@ -6,7 +6,7 @@ This project was part of the CPSC 599.11 (AI in Games) course at the University 
 
 ## Description
 
-The player will control Rob, the robot astronaut, as he navigates the hostile envoronment of the alien planet on which he crash landed. In this endless side-scroller platformer, the player must avoid oncoming meteorite-like enemies while continuously recharging their battery power (health) with the battery packs found throughout the platforms. While the player's health will never completely deplete, it is possible to enter a "power saving mode", greatly reducing the player's movement speed. 
+The player will control Rob, the robot astronaut, as he navigates the hostile environment of the alien planet on which he crash landed. In this endless side-scroller platformer, the player must avoid oncoming meteorite-like enemies while continuously recharging their battery power (health) with the battery packs found throughout the platforms. While the player's health will never completely deplete, it is possible to enter a "power saving mode", greatly reducing the player's movement speed. 
 
 As this is an “endless” game, the goal is for the player to have fun at their own pace. The player’s score is directly related to the total distance they have traveled in the right direction -- keep on trying for your new high score!\
 ![ezgif com-optimize(1)](https://github.com/raboull/Director_AI_Game/assets/60552485/2e49166e-f27e-43ec-af2f-98454a4336e6)
